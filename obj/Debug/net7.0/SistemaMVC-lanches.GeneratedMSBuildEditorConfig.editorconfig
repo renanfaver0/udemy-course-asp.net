@@ -20,12 +20,20 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2FycmluaG9Db21wcmEvSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/renanfavero/Documents/dotnet-programs/SistemaMVC-lanches/Views/Contato/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ29udGF0by9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/renanfavero/Documents/dotnet-programs/SistemaMVC-lanches/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/renanfavero/Documents/dotnet-programs/SistemaMVC-lanches/Views/Lanche/List.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTGFuY2hlL0xpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/renanfavero/Documents/dotnet-programs/SistemaMVC-lanches/Views/Shared/Components/CarrinhoCompraResumo/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvQ2FycmluaG9Db21wcmFSZXN1bW8vRGVmYXVsdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/renanfavero/Documents/dotnet-programs/SistemaMVC-lanches/Views/Shared/Error.cshtml]

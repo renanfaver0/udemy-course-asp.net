@@ -21,8 +21,16 @@
       "PackagePath": "staticwebassets/images/.DS_Store"
     },
     {
+      "Id": "/Users/renanfavero/Documents/dotnet-programs/SistemaMVC-lanches/wwwroot/images/Envelope-icon24.png",
+      "PackagePath": "staticwebassets/images/Envelope-icon24.png"
+    },
+    {
       "Id": "/Users/renanfavero/Documents/dotnet-programs/SistemaMVC-lanches/wwwroot/images/Full-Cart-icon.png",
       "PackagePath": "staticwebassets/images/Full-Cart-icon.png"
+    },
+    {
+      "Id": "/Users/renanfavero/Documents/dotnet-programs/SistemaMVC-lanches/wwwroot/images/Home-iconred.png",
+      "PackagePath": "staticwebassets/images/Home-iconred.png"
     },
     {
       "Id": "/Users/renanfavero/Documents/dotnet-programs/SistemaMVC-lanches/wwwroot/images/carousel11.jpg",
@@ -35,6 +43,18 @@
     {
       "Id": "/Users/renanfavero/Documents/dotnet-programs/SistemaMVC-lanches/wwwroot/images/carousel13.jpg",
       "PackagePath": "staticwebassets/images/carousel13.jpg"
+    },
+    {
+      "Id": "/Users/renanfavero/Documents/dotnet-programs/SistemaMVC-lanches/wwwroot/images/cart-5-16.ico",
+      "PackagePath": "staticwebassets/images/cart-5-16.ico"
+    },
+    {
+      "Id": "/Users/renanfavero/Documents/dotnet-programs/SistemaMVC-lanches/wwwroot/images/faleconosco1.jpg",
+      "PackagePath": "staticwebassets/images/faleconosco1.jpg"
+    },
+    {
+      "Id": "/Users/renanfavero/Documents/dotnet-programs/SistemaMVC-lanches/wwwroot/images/phone-app-icon.png",
+      "PackagePath": "staticwebassets/images/phone-app-icon.png"
     },
     {
       "Id": "/Users/renanfavero/Documents/dotnet-programs/SistemaMVC-lanches/wwwroot/images/remove.ico",

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using SistemaMVC_lanches.Models;
 using SistemaMVC_lanches.Repositories.Interfaces;
 using SistemaMVC_lanches.ViewModels;
 
@@ -17,26 +18,40 @@ namespace SistemaMVC_lanches.Controllers
             _lancheRepository = lancheRepository;
         }
 
-        public IActionResult List()
+        public IActionResult List(string categoria)
         {
-            // ViewData["Titulo"] = "Todos os lanches";
-            // ViewData["Data"] = DateTime.Now;
+            IEnumerable<Lanche> lanches;
+            string categoriaAtual = string.Empty;
 
-            // var lanches = _lancheRepository.Lanches;
-            // var totalLanches = lanches.Count();
+            if (string.IsNullOrEmpty(categoria))
+            {
+                lanches = _lancheRepository.Lanches.OrderBy(l => l.LancheId);
+                categoriaAtual = "Todos os lanches";
+            }
+            else
+            {
+                if (string.Equals("Normal", categoria, StringComparison.OrdinalIgnoreCase))
+                {
+                    lanches = _lancheRepository.Lanches
+                        .Where(l => l.Categoria.CategoriaNome.Equals("Normal"))
+                        .OrderBy(l => l.Nome);
+                }
+                else
+                {
+                    lanches = _lancheRepository.Lanches
+                        .Where(l => l.Categoria.CategoriaNome.Equals("Natural"))
+                        .OrderBy(l => l.Nome);
+                }
+                categoriaAtual = categoria;
+            }
 
-            // ViewBag.Total = "Total de lanches";
-            // ViewBag.TotalLanches = totalLanches;
-
-            // return View(lanches);
-
-            var lanchesListViewModel = new LancheListViewModel();
-            lanchesListViewModel.Lanches = _lancheRepository.Lanches;
-            lanchesListViewModel.CategoriaAtual = "Categoria Atual";
+            var lanchesListViewModel = new LancheListViewModel
+            {
+                Lanches = lanches,
+                CategoriaAtual = categoriaAtual
+        };
 
             return View(lanchesListViewModel);
-
-
         }
     }
 }

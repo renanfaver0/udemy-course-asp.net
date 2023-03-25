@@ -12922,6 +12922,42 @@
         }
       },
       {
+        "HashCode": -1753504832,
+        "Kind": "ITagHelper",
+        "Name": "SistemaMVC_lanches.TagHelpers.EmailTagHelper",
+        "AssemblyName": "SistemaMVC-lanches",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "email"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "ITagHelper",
+            "Name": "endereco",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Endereco"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "conteudo",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Conteudo"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "SistemaMVC_lanches.TagHelpers.EmailTagHelper",
+          "Common.TypeNamespace": "SistemaMVC_lanches.TagHelpers",
+          "Common.TypeNameIdentifier": "EmailTagHelper"
+        }
+      },
+      {
         "HashCode": -956022648,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper",
@@ -15154,6 +15190,23 @@
           "Common.TypeName": "Microsoft.AspNetCore.Mvc.TagHelpers.ValidationSummaryTagHelper",
           "Common.TypeNamespace": "Microsoft.AspNetCore.Mvc.TagHelpers",
           "Common.TypeNameIdentifier": "ValidationSummaryTagHelper"
+        }
+      },
+      {
+        "HashCode": -1158185297,
+        "Kind": "MVC.ViewComponent",
+        "Name": "__Generated__CarrinhoCompraResumoViewComponentTagHelper",
+        "AssemblyName": "SistemaMVC-lanches",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "vc:carrinho-compra-resumo"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "__Generated__CarrinhoCompraResumoViewComponentTagHelper",
+          "MVC.ViewComponent.Name": "CarrinhoCompraResumo"
         }
       },
       {
@@ -18675,6 +18728,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/Users/renanfavero/Documents/dotnet-programs/SistemaMVC-lanches/Views/Contato/Index.cshtml",
+      "TargetPath": "Views\\Contato\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/Users/renanfavero/Documents/dotnet-programs/SistemaMVC-lanches/Views/Home/Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
       "FileKind": "mvc"
@@ -18687,6 +18745,11 @@
     {
       "FilePath": "/Users/renanfavero/Documents/dotnet-programs/SistemaMVC-lanches/Views/Lanche/List.cshtml",
       "TargetPath": "Views\\Lanche\\List.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/renanfavero/Documents/dotnet-programs/SistemaMVC-lanches/Views/Shared/Components/CarrinhoCompraResumo/Default.cshtml",
+      "TargetPath": "Views\\Shared\\Components\\CarrinhoCompraResumo\\Default.cshtml",
       "FileKind": "mvc"
     },
     {
