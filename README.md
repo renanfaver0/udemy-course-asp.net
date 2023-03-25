@@ -1,2 +1,2 @@
 # udemy-course-asp.net
-Course in progress.
+Course and project in progress.
