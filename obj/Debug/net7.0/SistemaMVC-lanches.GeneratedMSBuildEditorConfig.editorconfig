@@ -28,12 +28,20 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/renanfavero/Documents/dotnet-programs/SistemaMVC-lanches/Views/Lanche/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTGFuY2hlL0RldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/renanfavero/Documents/dotnet-programs/SistemaMVC-lanches/Views/Lanche/List.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTGFuY2hlL0xpc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/renanfavero/Documents/dotnet-programs/SistemaMVC-lanches/Views/Shared/Components/CarrinhoCompraResumo/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvQ2FycmluaG9Db21wcmFSZXN1bW8vRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/renanfavero/Documents/dotnet-programs/SistemaMVC-lanches/Views/Shared/Components/CategoriaMenu/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvQ2F0ZWdvcmlhTWVudS9EZWZhdWx0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/renanfavero/Documents/dotnet-programs/SistemaMVC-lanches/Views/Shared/Error.cshtml]

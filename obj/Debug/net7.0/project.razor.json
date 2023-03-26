@@ -15210,6 +15210,23 @@
         }
       },
       {
+        "HashCode": -1836545249,
+        "Kind": "MVC.ViewComponent",
+        "Name": "__Generated__CategoriaMenuViewComponentTagHelper",
+        "AssemblyName": "SistemaMVC-lanches",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "vc:categoria-menu"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "__Generated__CategoriaMenuViewComponentTagHelper",
+          "MVC.ViewComponent.Name": "CategoriaMenu"
+        }
+      },
+      {
         "HashCode": 1981647736,
         "Kind": "Components.Bind",
         "Name": "Bind",
@@ -18755,6 +18772,16 @@
     {
       "FilePath": "/Users/renanfavero/Documents/dotnet-programs/SistemaMVC-lanches/Views/CarrinhoCompra/Index.cshtml",
       "TargetPath": "Views\\CarrinhoCompra\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/renanfavero/Documents/dotnet-programs/SistemaMVC-lanches/Views/Shared/Components/CategoriaMenu/Default.cshtml",
+      "TargetPath": "Views\\Shared\\Components\\CategoriaMenu\\Default.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/renanfavero/Documents/dotnet-programs/SistemaMVC-lanches/Views/Lanche/Details.cshtml",
+      "TargetPath": "Views\\Lanche\\Details.cshtml",
       "FileKind": "mvc"
     }
   ],
