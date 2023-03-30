@@ -45,12 +45,80 @@
       "PackagePath": "staticwebassets/images/carousel13.jpg"
     },
     {
+      "Id": "/Users/renanfavero/Documents/dotnet-programs/SistemaMVC-lanches/wwwroot/images/carousel14.jpg",
+      "PackagePath": "staticwebassets/images/carousel14.jpg"
+    },
+    {
+      "Id": "/Users/renanfavero/Documents/dotnet-programs/SistemaMVC-lanches/wwwroot/images/carousel15.jpg",
+      "PackagePath": "staticwebassets/images/carousel15.jpg"
+    },
+    {
+      "Id": "/Users/renanfavero/Documents/dotnet-programs/SistemaMVC-lanches/wwwroot/images/carousel16.jpg",
+      "PackagePath": "staticwebassets/images/carousel16.jpg"
+    },
+    {
+      "Id": "/Users/renanfavero/Documents/dotnet-programs/SistemaMVC-lanches/wwwroot/images/carousel17.jpg",
+      "PackagePath": "staticwebassets/images/carousel17.jpg"
+    },
+    {
       "Id": "/Users/renanfavero/Documents/dotnet-programs/SistemaMVC-lanches/wwwroot/images/cart-5-16.ico",
       "PackagePath": "staticwebassets/images/cart-5-16.ico"
     },
     {
       "Id": "/Users/renanfavero/Documents/dotnet-programs/SistemaMVC-lanches/wwwroot/images/faleconosco1.jpg",
       "PackagePath": "staticwebassets/images/faleconosco1.jpg"
+    },
+    {
+      "Id": "/Users/renanfavero/Documents/dotnet-programs/SistemaMVC-lanches/wwwroot/images/lanche_logo.png",
+      "PackagePath": "staticwebassets/images/lanche_logo.png"
+    },
+    {
+      "Id": "/Users/renanfavero/Documents/dotnet-programs/SistemaMVC-lanches/wwwroot/images/leiaute/icons8-caixa-de-selec‡ֶo-seleccionada-2-48.png",
+      "PackagePath": "staticwebassets/images/leiaute/icons8-caixa-de-selec‡ֶo-seleccionada-2-48.png"
+    },
+    {
+      "Id": "/Users/renanfavero/Documents/dotnet-programs/SistemaMVC-lanches/wwwroot/images/leiaute/icons8-comida-fast-food-street-food-18-50.png",
+      "PackagePath": "staticwebassets/images/leiaute/icons8-comida-fast-food-street-food-18-50.png"
+    },
+    {
+      "Id": "/Users/renanfavero/Documents/dotnet-programs/SistemaMVC-lanches/wwwroot/images/leiaute/icons8-comida-natural-50.png",
+      "PackagePath": "staticwebassets/images/leiaute/icons8-comida-natural-50.png"
+    },
+    {
+      "Id": "/Users/renanfavero/Documents/dotnet-programs/SistemaMVC-lanches/wwwroot/images/leiaute/icons8-comida-natural-80.png",
+      "PackagePath": "staticwebassets/images/leiaute/icons8-comida-natural-80.png"
+    },
+    {
+      "Id": "/Users/renanfavero/Documents/dotnet-programs/SistemaMVC-lanches/wwwroot/images/leiaute/icons8-desconto-48.png",
+      "PackagePath": "staticwebassets/images/leiaute/icons8-desconto-48.png"
+    },
+    {
+      "Id": "/Users/renanfavero/Documents/dotnet-programs/SistemaMVC-lanches/wwwroot/images/leiaute/icons8-email-open-50.png",
+      "PackagePath": "staticwebassets/images/leiaute/icons8-email-open-50.png"
+    },
+    {
+      "Id": "/Users/renanfavero/Documents/dotnet-programs/SistemaMVC-lanches/wwwroot/images/leiaute/icons8-get-dressed-32.png",
+      "PackagePath": "staticwebassets/images/leiaute/icons8-get-dressed-32.png"
+    },
+    {
+      "Id": "/Users/renanfavero/Documents/dotnet-programs/SistemaMVC-lanches/wwwroot/images/leiaute/icons8-get-dressed-50.png",
+      "PackagePath": "staticwebassets/images/leiaute/icons8-get-dressed-50.png"
+    },
+    {
+      "Id": "/Users/renanfavero/Documents/dotnet-programs/SistemaMVC-lanches/wwwroot/images/leiaute/icons8-hamburger-32.png",
+      "PackagePath": "staticwebassets/images/leiaute/icons8-hamburger-32.png"
+    },
+    {
+      "Id": "/Users/renanfavero/Documents/dotnet-programs/SistemaMVC-lanches/wwwroot/images/leiaute/icons8-hamburger-58.png",
+      "PackagePath": "staticwebassets/images/leiaute/icons8-hamburger-58.png"
+    },
+    {
+      "Id": "/Users/renanfavero/Documents/dotnet-programs/SistemaMVC-lanches/wwwroot/images/leiaute/icons8-love-50.png",
+      "PackagePath": "staticwebassets/images/leiaute/icons8-love-50.png"
+    },
+    {
+      "Id": "/Users/renanfavero/Documents/dotnet-programs/SistemaMVC-lanches/wwwroot/images/leiaute/icons8-speaker-phone-50.png",
+      "PackagePath": "staticwebassets/images/leiaute/icons8-speaker-phone-50.png"
     },
     {
       "Id": "/Users/renanfavero/Documents/dotnet-programs/SistemaMVC-lanches/wwwroot/images/phone-app-icon.png",
