@@ -121,8 +121,20 @@
       "PackagePath": "staticwebassets/images/leiaute/icons8-speaker-phone-50.png"
     },
     {
+      "Id": "/Users/renanfavero/Documents/dotnet-programs/SistemaMVC-lanches/wwwroot/images/login1.jpg",
+      "PackagePath": "staticwebassets/images/login1.jpg"
+    },
+    {
+      "Id": "/Users/renanfavero/Documents/dotnet-programs/SistemaMVC-lanches/wwwroot/images/login_48.png",
+      "PackagePath": "staticwebassets/images/login_48.png"
+    },
+    {
       "Id": "/Users/renanfavero/Documents/dotnet-programs/SistemaMVC-lanches/wwwroot/images/phone-app-icon.png",
       "PackagePath": "staticwebassets/images/phone-app-icon.png"
+    },
+    {
+      "Id": "/Users/renanfavero/Documents/dotnet-programs/SistemaMVC-lanches/wwwroot/images/registro1.jpg",
+      "PackagePath": "staticwebassets/images/registro1.jpg"
     },
     {
       "Id": "/Users/renanfavero/Documents/dotnet-programs/SistemaMVC-lanches/wwwroot/images/remove.ico",

@@ -16,6 +16,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /Users/renanfavero/Documents/dotnet-programs/SistemaMVC-lanches
 build_property._RazorSourceGeneratorDebug = 
 
+[/Users/renanfavero/Documents/dotnet-programs/SistemaMVC-lanches/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWNjb3VudC9Mb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/renanfavero/Documents/dotnet-programs/SistemaMVC-lanches/Views/CarrinhoCompra/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2FycmluaG9Db21wcmEvSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
