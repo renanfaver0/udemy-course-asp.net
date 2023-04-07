@@ -2,12 +2,14 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using SistemaMVC_lanches.ViewModels;
 
 namespace SistemaMVC_lanches.Controllers
 {
+    [Authorize] 
     public class AccountController : Controller
     {
         private readonly UserManager<IdentityUser> _userManager;
@@ -20,7 +22,7 @@ namespace SistemaMVC_lanches.Controllers
             _signInManager = signInManager;
         }
 
-        [HttpGet]
+        [AllowAnonymous]
         public IActionResult Login(string returnUrl)
         {
             return View(new LoginViewModel()
@@ -29,6 +31,7 @@ namespace SistemaMVC_lanches.Controllers
             });
         }
 
+        [AllowAnonymous]
         [HttpPost]
         public async Task<IActionResult> Login(LoginViewModel loginVM)
         {
@@ -53,6 +56,13 @@ namespace SistemaMVC_lanches.Controllers
             return View(loginVM);
         }
 
+        [AllowAnonymous]
+        public IActionResult Register()
+        {
+            return View();
+        }
+
+        [AllowAnonymous]
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task <IActionResult> Register(LoginViewModel registroVM)
@@ -73,5 +83,18 @@ namespace SistemaMVC_lanches.Controllers
             }
             return View(registroVM);
         }
+
+        [AllowAnonymous]
+        [HttpPost]
+        public async Task<IActionResult> Logout()
+        {
+            HttpContext.Session.Clear();
+            HttpContext.User = null;
+            await _signInManager.SignOutAsync();
+            return RedirectToAction("Index","Home");
+        }
     }
 }
+
+// user: renan
+// senha: tI%l@653AFwQ

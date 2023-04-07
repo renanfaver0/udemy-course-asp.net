@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using SistemaMVC_lanches.Models;
 using SistemaMVC_lanches.Repositories.Interfaces;
@@ -36,6 +37,7 @@ namespace SistemaMVC_lanches.Controllers
             return View(carrinhoCompraVM);
         }
 
+        [Authorize]    
         public IActionResult AdicionarItemNoCarrinhoCompra(int lancheId)
         {
             var lancheSelecionado = _lancheRepository.Lanches.
@@ -48,6 +50,7 @@ namespace SistemaMVC_lanches.Controllers
             return RedirectToAction("Index");
         }
 
+        [Authorize] 
         public IActionResult RemoverItemDoCarrinhoCompra(int lancheId)
         {
             var lancheSelecionado = _lancheRepository.Lanches.
@@ -55,7 +58,7 @@ namespace SistemaMVC_lanches.Controllers
             
             if(lancheSelecionado != null)
             {
-                _carrinhoCompra.AdicionarAoCarrinho(lancheSelecionado);
+                _carrinhoCompra.RemoverDoCarrinho(lancheSelecionado);
             }
             return RedirectToAction("Index");
         }
