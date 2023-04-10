@@ -33,6 +33,10 @@
       "PackagePath": "staticwebassets/images/Home-iconred.png"
     },
     {
+      "Id": "/Users/renanfavero/Documents/dotnet-programs/SistemaMVC-lanches/wwwroot/images/adminarea.jpg",
+      "PackagePath": "staticwebassets/images/adminarea.jpg"
+    },
+    {
       "Id": "/Users/renanfavero/Documents/dotnet-programs/SistemaMVC-lanches/wwwroot/images/carousel11.jpg",
       "PackagePath": "staticwebassets/images/carousel11.jpg"
     },
@@ -127,6 +131,10 @@
     {
       "Id": "/Users/renanfavero/Documents/dotnet-programs/SistemaMVC-lanches/wwwroot/images/login_48.png",
       "PackagePath": "staticwebassets/images/login_48.png"
+    },
+    {
+      "Id": "/Users/renanfavero/Documents/dotnet-programs/SistemaMVC-lanches/wwwroot/images/negado1.jpg",
+      "PackagePath": "staticwebassets/images/negado1.jpg"
     },
     {
       "Id": "/Users/renanfavero/Documents/dotnet-programs/SistemaMVC-lanches/wwwroot/images/phone-app-icon.png",

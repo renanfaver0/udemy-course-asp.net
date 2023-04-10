@@ -74,6 +74,7 @@ namespace SistemaMVC_lanches.Controllers
 
                 if(result.Succeeded)
                 {
+                    await _userManager.AddToRoleAsync(user, "Member");
                     return RedirectToAction("Login", "Account");
                 }
                 else
@@ -93,8 +94,11 @@ namespace SistemaMVC_lanches.Controllers
             await _signInManager.SignOutAsync();
             return RedirectToAction("Index","Home");
         }
+
+        public IActionResult AccessDenied()
+        {
+            return View();
+        }
     }
 }
 
-// user: renan
-// senha: tI%l@653AFwQ

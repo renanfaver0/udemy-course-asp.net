@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "u8xJmAQ3Nen9cGOyN9msk9UU7xGT+iDrswhnvs3voq4=",
+  "Hash": "PxsYsJNkjWrzPQ63Sx5ZJg7mc4gfW5s8vxWy6O13gSU=",
   "Source": "SistemaMVC-lanches",
   "BasePath": "_content/SistemaMVC-lanches",
   "Mode": "Default",
@@ -1139,6 +1139,23 @@
       "OriginalItemSpec": "wwwroot/images/.DS_Store"
     },
     {
+      "Identity": "/Users/renanfavero/Documents/dotnet-programs/SistemaMVC-lanches/wwwroot/images/adminarea.jpg",
+      "SourceId": "SistemaMVC-lanches",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/renanfavero/Documents/dotnet-programs/SistemaMVC-lanches/wwwroot/",
+      "BasePath": "_content/SistemaMVC-lanches",
+      "RelativePath": "images/adminarea.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/adminarea.jpg"
+    },
+    {
       "Identity": "/Users/renanfavero/Documents/dotnet-programs/SistemaMVC-lanches/wwwroot/images/carousel11.jpg",
       "SourceId": "SistemaMVC-lanches",
       "SourceType": "Discovered",
@@ -1596,6 +1613,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/images/login1.jpg"
+    },
+    {
+      "Identity": "/Users/renanfavero/Documents/dotnet-programs/SistemaMVC-lanches/wwwroot/images/negado1.jpg",
+      "SourceId": "SistemaMVC-lanches",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/renanfavero/Documents/dotnet-programs/SistemaMVC-lanches/wwwroot/",
+      "BasePath": "_content/SistemaMVC-lanches",
+      "RelativePath": "images/negado1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/negado1.jpg"
     },
     {
       "Identity": "/Users/renanfavero/Documents/dotnet-programs/SistemaMVC-lanches/wwwroot/images/phone-app-icon.png",
